@@ -1,4 +1,3 @@
-source:      .
 destination: ./_site
 plugins:     ./_plugins
 layouts:     ./_layouts
@@ -12,6 +11,9 @@ future:      true
 show_drafts: nil
 limit_posts: 0
 pygments:    true
+
+highlighter: pygments
+github: [Repository metadata]
 
 gems:
 - jekyll-mentions
@@ -30,14 +32,15 @@ textile_ext:   textile
 
 excerpt_separator: "\n\n"
 
-safe:        false
+safe: true
+lsi: false
+
 watch:       false    # deprecated
 server:      false    # deprecated
 host:        0.0.0.0
 port:        4000
 baseurl:     /
 url:         http://localhost:4000
-lsi:         false
 
 maruku:
   use_tex:    false
