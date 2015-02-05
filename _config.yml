@@ -13,6 +13,12 @@ show_drafts: nil
 limit_posts: 0
 pygments:    true
 
+gems:
+- jekyll-mentions
+- jemoji
+- jekyll-redirect-from
+- jekyll-sitemap
+
 relative_permalinks: true
 
 permalink:     date
