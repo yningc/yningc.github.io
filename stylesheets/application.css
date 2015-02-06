@@ -1,6 +1,7 @@
 body {
   background: url("../images/pattern.png") center top;
-  font-family: 'Droid Sans', arial, serif; }
+  font-family: 'Droid Sans', arial, serif; 
+}
 
 header {
   padding: 15px 0;
@@ -18,6 +19,37 @@ header {
       color: #969696;
       font-size: 10px;
       margin-top: -5px; }
+
+margin:0 0 20px 0;
+  font-size:0.9em;
+  p {
+        margin:0;
+        display:inline-block;
+  }
+
+img.big-avatar {
+  -moz-border-radius: 75px;
+  -webkit-border-radius: 75px;
+  border-radius: 75px;
+  width: 150px;
+  height: 150px;
+  margin: 0 20px 0 0;
+  display: inline-block;
+}
+
+.follow {
+    margin:0;
+    font-size:0.9em;
+    display:inline-block;
+    font-family: "Comic Sans MS";
+}
+
+.muted {
+    margin:0 0 20px 0;
+    color:#74acd4;
+    display:inline-block;
+    font-family: "Comic Sans MS";
+}
 
 footer {
   padding: 15px 0;
